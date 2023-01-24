@@ -4,36 +4,33 @@
     box-sizing: border-box;
   }
   
-  body{
-    background-color: #fafafa;
-  }
   .container{
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    margin-top: 9%;
   }
   
   .outline{
     width: 350px;
     border: 1px solid #c3c3c3;
-    border-radius: 4px;
+    border-radius: 1px;
   }
   
   .ig-logo{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 17px;
-    cursor: pointer;
+    margin-top: 40px;
+    margin-bottom: 30px;
   }
   
   .form{
     display: flex;
     flex-direction: column ;
-    margin: 0 37px 0 37px;
+    margin: 0 40px 0 40px;
   }
 
   .input-text{
@@ -41,21 +38,20 @@
     font-size: 12px;
     margin-top: 10px;
   }
-
+  
   .input-text:focus{
-    outline: #808080;
+    outline: #c9c6c6;
   }
 
   .input-btn{
-    background-color: #0575df;
+    background-color: #0095F6;
     color: #fff;
     font-size: 12px;
     padding: 8px;
-    border-radius: 4px;
-    margin-bottom: 12px;
-    margin-top: 12px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     border: none;
-    cursor: pointer;  
   }
 
   .line{
@@ -64,14 +60,76 @@
   }
 
   .arrow{
-    background-color: gray;
+    background-color: #808080;
     height: 1px;
     width: 140px;
   }
 
   .content{
-    color: grey;
+    color: #808080;
     margin-top: -8px;
     margin-left: 6px;
     margin-right: 6px;
+  }
+
+  .social{
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+
+  .fab{
+    padding: 5px;
+    color: #385185;
+  }
+
+  .social span{
+    color: #385185;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .forgot-password{
+    margin: auto;
+    color: #003783;
+    margin-bottom: 20px;
+    font-size: 13px;
+
+  }
+
+  .blue-text{
+    color: #00B2F9;
+    font-weight: 400;
+  }
+
+  .second-outline{
+    height: 70px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-dw{
+    width: 130px;
+    height: 40px;
+  }
+  .dw-text{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  ::placeholder{
+    color: #8E8E8E;
+  }
+
+  .pointer{
+    cursor: pointer;
+  }
+
+  ul{
+    display: flex;
+  }
+  li{
+    margin-left: 10px;
+    list-style: none;
   }
